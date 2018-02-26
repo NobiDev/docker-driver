@@ -1,4 +1,4 @@
-// +build linux
+// +build darwin
 
 /*
 Copyright 2016 The NobiDev Authors All rights reserved.
