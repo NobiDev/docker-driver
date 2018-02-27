@@ -20,3 +20,5 @@ build: $(BUILD_DIR) vendor
 	go build \
 			-installsuffix "static" \
 			-o $(BUILD_DIR)/docker-machine-driver-nobidev
+	chmod +x $(BUILD_DIR)/docker-machine-driver-nobidev
+	sudo mv $(BUILD_DIR)/docker-machine-driver-nobidev /usr/local/bin/ && sudo chown root:wheel /usr/local/bin/docker-machine-driver-nobidev && sudo chmod u+s /usr/local/bin/docker-machine-driver-nobidev
