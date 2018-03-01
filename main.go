@@ -17,7 +17,7 @@ package main
 
 import (
 	"github.com/docker/machine/libmachine/drivers/plugin"
-	"github.com/praveenkumar/docker-machine-driver-nobidev/pkg/nobidev-driver"
+	"github.com/machine-drivers/docker-machine-driver-nobidev/pkg/nobidev-driver"
 )
 
 func main() {
